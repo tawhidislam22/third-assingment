@@ -4,14 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- font awesome cdn -->
     <script src="https://kit.fontawesome.com/fd3d766ac2.js" crossorigin="anonymous"></script>
+    <!-- tailwind cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Manrope:wght@200..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- daisy ui cdn  -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script> -->
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body class="font-manrope">
+    <header class="mx-10 my-10">
+        <nav class="flex justify-between items-center mb-6">
+            <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-arrow-right w-[11px] text-[#1C1C1C] p-2 -rotate-45 bg-[#ABEF5F] rounded-full"></i>
+                <h3 class="text-[#212121] text-3xl font-bold">Rinterio</h3>
+
+            </div>
+            <div class="hidden lg:block">
+                <ul class="flex gap-6">
+                    <li><a class="text-base font-bold text-[#494949]" href="">Home</a></li>
+                    <li><a class="text-base font-normal text-[#737373]" href="">Services</a></li>
+                    <li><a class="text-base font-normal text-[#737373]" href="">Portfolio</a></li>
+                    <li><a class="text-base font-normal text-[#737373]" href="">Blogs</a></li>
+                    <li><a class="text-base font-normal text-[#737373]" href="">Contract Us</a></li>
+                </ul>
+
+            </div>
+            <div class="flex gap-6">
+                <div class="hidden md:block">
+                    <i class="fa-solid fa-magnifying-glass mr-6 bg-[#FFFFFF]"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <button class="bg-[#ABEF5F] px-4 py-2 rounded-3xl">Book Consult <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <i class="fa-solid fa-bars lg:hidden"></i>
+            </div>
+        </nav>
+        <!-- banner section -->
+         <div class="flex flex-col items-center gap-6">
+            <div>
+                <img src="./assets/banner.png" alt="">
+            </div>
+            <div class="text-center">
+                <h1 class="text-7xl text-[#212121] font-bold mx-8">A barn house of this design has a striking appearance</h1>
+                <p class="text-base text-[#494949] font-medium my-8 w-5/6 mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <button class="bg-[#ABEF5F80] px-4 py-2 rounded-3xl">View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+         </div>
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+        
+    </footer>
     
 </body>
 </html>
