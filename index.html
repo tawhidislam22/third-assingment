@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,17 +11,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- daisy ui cdn  -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script> -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
 </head>
-<body class="font-manrope">
-    <header class="mx-10 my-10">
-        <nav class="flex justify-between items-center mb-6">
+<body class="font-manrope" >
+    <header class="my-10 container mx-auto">
+        <nav class="flex justify-between items-center mb-6 ">
             <div class="flex gap-2 items-center">
                 <i class="fa-solid fa-arrow-right w-[11px] text-[#1C1C1C] p-2 -rotate-45 bg-[#ABEF5F] rounded-full"></i>
                 <h3 class="text-[#212121] text-3xl font-bold">Rinterio</h3>
@@ -59,7 +59,54 @@
          </div>
 
     </header>
-    <main>
+    <main class="container mx-auto">
+        <section class="bg-base-200 py-10">
+            
+            <div class="hero  min-h-screen">
+                <div class="hero-content flex-col lg:flex-row">
+
+                  <div>
+                    <button class="btn ">follow</button>
+                    <h1 class="text-5xl font-bold">Box Office News!</h1>
+                    <p class="py-6">
+                      Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                      quasi. In deleniti eaque aut repudiandae et a id nisi.
+                    </p>
+                    <button class="btn btn-primary">Get Started</button>
+                  </div>
+                </div>
+                <div>
+                    <img
+                src="./assets/Rectangle.png"
+                class="max-w-sm rounded-lg shadow-2xl" />
+                </div>
+              </div>
+            
+            <div class="my-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-[#FFFFFF] p-4 rounded-xl">
+                <div class="p-4 text-center">
+                    <h4 class="text-[#737373] text-2xl mb-3"><i class="fa-regular fa-comment-dots "></i></h4>
+                    <h3 class="text-[#494949] text-4xl font-bold mb-2">235+</h3>
+                    <p class="text-base text-[#737373] font-medium">Work Departments</p>
+                </div>
+                <div class="p-4 text-center">
+                    <h4 class="text-[#737373] text-2xl mb-3"><i class="fa-regular fa-comment-dots"></i></h4>
+                    <h3 class="text-[#494949] text-4xl font-bold mb-2">50+</h3>
+                    <p class="text-base text-[#737373] font-medium">Our Happy Client</p>
+                </div>
+                <div class="p-4 text-center">
+                    <h4 class="text-[#737373] text-2xl mb-3"><i class="fa-solid fa-user-group"></i></h4>
+                    <h3 class="text-[#494949] text-4xl font-bold mb-2">30+</h3>
+                    <p class="text-base text-[#737373] font-medium">Staff Members</p>
+                </div>
+                <div class="p-4 text-center">
+                    <h4 class="text-[#737373] text-2xl mb-3"><i class="fa-solid fa-user-group"></i></h4>
+                    <h3 class="text-[#494949] text-4xl font-bold mb-2">307+</h3>
+                    <p class="text-base text-[#737373] font-medium">Happy Client Review</p>
+                </div>
+
+            </div>
+
+        </section>
 
     </main>
     <footer>
